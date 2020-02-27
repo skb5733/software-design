@@ -20,6 +20,8 @@ DB.create_table! :rsvps do
   String :comments, text: true
 end
 
+
+
 # Insert initial (seed) data
 events_table = DB.from(:events)
 
